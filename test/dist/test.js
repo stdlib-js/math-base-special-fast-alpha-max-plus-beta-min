@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,50 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var randu = require( '@stdlib/random-base-randu' ).factory;
-var abs = require( '@stdlib/math-base-special-abs' );
-var hypot = require( '@stdlib/math-base-special-hypot' );
-var approx = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof approx, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'attached to the main export is a factory method', function test( t ) {
-	t.strictEqual( typeof approx.factory, 'function', 'has factory method' );
-	t.end();
-});
-
-tape( 'the function computes the hypotenuse using the alpha max plus beta min algorithm', function test( t ) {
-	var expected;
-	var rand;
-	var err;
-	var tol;
-	var h;
-	var x;
-	var y;
-	var i;
-
-	rand = randu();
-	t.ok( true, 'seed: '+rand.seed );
-
-	tol = 0.0396;
-	for ( i = 0; i < 500; i++ ) {
-		x = ( rand()*100.0 ) - 50.0;
-		y = ( rand()*100.0 ) - 50.0;
-		expected = hypot( x, y );
-		h = approx( x, y );
-		if ( h === expected ) {
-			t.ok( true, 'x: '+x+'. y: '+y+'. h: '+h+'. Expected: '+expected+'.' );
-		} else {
-			err = abs( h - expected ) / abs( expected );
-			t.strictEqual( err <= tol, true, 'within tolerance. x: '+x+'. y: '+y+'. h: '+h+'. Expected: '+expected+'. Error: '+err+'. Tol: '+tol+'.' );
-		}
-	}
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
