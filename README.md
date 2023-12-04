@@ -267,7 +267,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/hypot]: https://github.com/stdlib-js/math-base-special-hypot
+
 
 <!-- </related-links> -->
 
