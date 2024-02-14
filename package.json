@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-fast-alpha-max-plus-beta-min",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Compute the hypotenuse using the alpha max plus beta min algorithm.",
   "license": "Apache-2.0",
   "author": {
@@ -37,9 +37,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-base-special-fast-abs": "^0.1.1",
-    "@stdlib/math-base-special-labs": "^0.1.1",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1"
+    "@stdlib/math-base-special-fast-abs": "^0.2.0",
+    "@stdlib/math-base-special-labs": "^0.2.0",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/math-base-assert-is-nan": "^0.1.1",
