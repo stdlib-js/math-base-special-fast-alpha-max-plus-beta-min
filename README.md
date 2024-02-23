@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ampbm from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min@esm/index.mjs';
+import ampbm from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min@v0.2.1-esm/index.mjs';
 ```
 
 #### ampbm( x, y )
@@ -140,7 +140,7 @@ var h = hypot( 5.0, 12.0 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import ampbm from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min@esm/index.mjs';
+import ampbm from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min@v0.2.1-esm/index.mjs';
 
 var x;
 var y;
