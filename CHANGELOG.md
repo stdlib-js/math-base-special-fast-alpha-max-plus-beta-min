@@ -2,31 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="v0.3.0">
+<section class="release" id="unreleased">
 
-## 0.3.0 (2024-07-28)
-
-<section class="features">
-
-### Features
-
--   [`abf4652`](https://github.com/stdlib-js/stdlib/commit/abf4652e755a88031ee35c182b34d48effe25e43) - add C implementation of `math/base/special/fast/alpha-max-plus-beta-min` [(#1947)](https://github.com/stdlib-js/stdlib/pull/1947)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-### Closed Issues
-
-This release closes the following issue:
-
-[#1938](https://github.com/stdlib-js/stdlib/issues/1938)
-
-</section>
-
-<!-- /.issues -->
+## Unreleased (2024-08-01)
 
 <section class="commits">
 
@@ -34,11 +12,7 @@ This release closes the following issue:
 
 <details>
 
--   [`272ae7a`](https://github.com/stdlib-js/stdlib/commit/272ae7ac5c576c68cfab1b6e304c86407faa20cd) - **docs:** remove comment _(by Athan Reines)_
--   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
--   [`f36cfab`](https://github.com/stdlib-js/stdlib/commit/f36cfab3875404fd9c58b6e2a6fedca5e04cb4d9) - **chore:** update package meta data [(#2014)](https://github.com/stdlib-js/stdlib/pull/2014) _(by stdlib-bot)_
--   [`abf4652`](https://github.com/stdlib-js/stdlib/commit/abf4652e755a88031ee35c182b34d48effe25e43) - **feat:** add C implementation of `math/base/special/fast/alpha-max-plus-beta-min` [(#1947)](https://github.com/stdlib-js/stdlib/pull/1947) _(by Ayaka, Athan Reines)_
--   [`94d7738`](https://github.com/stdlib-js/stdlib/commit/94d7738c835898f9fa6d8904ebd230401aaf8958) - **docs:** remove blank lines [(#1682)](https://github.com/stdlib-js/stdlib/pull/1682) _(by stdlib-bot)_
+-   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
 
 </details>
 
@@ -50,14 +24,23 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 1 person contributed to this release. Thank you to this contributor:
 
 -   Athan Reines
--   Ayaka
 
 </section>
 
 <!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.3.0">
+
+## 0.3.0 (2024-07-28)
+
+No changes reported for this release.
 
 </section>
 
@@ -77,32 +60,7 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-<section class="commits">
-
-### Commits
-
-<details>
-
--   [`57d81e4`](https://github.com/stdlib-js/stdlib/commit/57d81e4c196065f6680f08f22aeccfdc6e590b8f) - **docs:** update related packages sections [(#1151)](https://github.com/stdlib-js/stdlib/pull/1151) _(by stdlib-bot)_
--   [`453dd85`](https://github.com/stdlib-js/stdlib/commit/453dd85b5dd186d2b4d458256fe84906e1503fe2) - **build:** remove tslint directives _(by Philipp Burckhardt)_
-
-</details>
-
-</section>
-
-<!-- /.commits -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
+No changes reported for this release.
 
 </section>
 
@@ -122,54 +80,7 @@ No changes reported for this release.
 
 ## 0.1.0 (2023-09-23)
 
-<section class="features">
-
-### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - **feat:** update minimum TypeScript version _(by Philipp Burckhardt)_
-
-</details>
-
-</section>
-
-<!-- /.commits -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
+No changes reported for this release.
 
 </section>
 
