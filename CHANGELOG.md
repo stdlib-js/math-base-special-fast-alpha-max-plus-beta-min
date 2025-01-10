@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-01-10)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`bd18248`](https://github.com/stdlib-js/stdlib/commit/bd1824843709cd0ba9de4351fceefd27069293c7) - **docs:** update related packages sections [(#4675)](https://github.com/stdlib-js/stdlib/pull/4675) _(by stdlib-bot, Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2024-07-28)
