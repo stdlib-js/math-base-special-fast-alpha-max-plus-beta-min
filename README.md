@@ -233,7 +233,7 @@ int main( void ) {
 
 </section>
 
-<!-- ./examples -->
+<!-- /.examples -->
 
 </section>
 
