@@ -40,21 +40,21 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-base-napi-binary": "^0.3.1",
+    "@stdlib/math-base-napi-binary": "^0.3.2",
     "@stdlib/math-base-special-fast-abs": "^0.3.0",
     "@stdlib/math-base-special-labs": "^0.2.2",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.3",
     "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
+    "@stdlib/console-log-each-map": "^0.1.0",
     "@stdlib/math-base-assert-is-nan": "^0.2.2",
     "@stdlib/math-base-special-abs": "^0.2.2",
     "@stdlib/math-base-special-ceil": "^0.2.2",
-    "@stdlib/math-base-special-hypot": "^0.2.2",
+    "@stdlib/math-base-special-hypot": "^0.2.3",
     "@stdlib/math-base-special-roundn": "^0.2.2",
     "@stdlib/random-array-discrete-uniform": "^0.2.1",
-    "@stdlib/random-base-randu": "^0.2.1",
+    "@stdlib/random-base-randu": "^0.2.2",
     "@stdlib/utils-try-require": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
