@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ampbm from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min@deno/mod.js';
+import ampbm from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min@v0.3.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min@v0.3.1-deno/mod.js';
 ```
 
 #### ampbm( x, y )
@@ -135,7 +135,7 @@ var h = hypot( 5.0, 12.0 );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import ampbm from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min@deno/mod.js';
+import ampbm from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min@v0.3.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
