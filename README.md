@@ -45,38 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-fast-alpha-max-plus-beta-min
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ampbm = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ampbm = require( 'path/to/vendor/umd/math-base-special-fast-alpha-max-plus-beta-min/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ampbm;
-})();
-</script>
+var ampbm = require( '@stdlib/math-base-special-fast-alpha-max-plus-beta-min' );
 ```
 
 #### ampbm( x, y )
@@ -150,15 +144,10 @@ var h = hypot( 5.0, 12.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
+var logEachMap = require( '@stdlib/console-log-each-map' );
+var ampbm = require( '@stdlib/math-base-special-fast-alpha-max-plus-beta-min' );
 
 var opts = {
     'dtype': 'float64'
@@ -167,11 +156,6 @@ var x = discreteUniform( 100, -50, 50, opts );
 var y = discreteUniform( 100, -50, 50, opts );
 
 logEachMap( 'hypot(%d,%d) = %0.4f', x, y, ampbm );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -180,7 +164,80 @@ logEachMap( 'hypot(%d,%d) = %0.4f', x, y, ampbm );
 
 <!-- C interface documentation. -->
 
+* * *
 
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
+<!-- C usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```c
+#include "stdlib/math/base/special/fast/alpha_max_plus_beta_min.h"
+```
+
+#### stdlib_base_fast_ampbm( x, y )
+
+Computes the hypotenuse using the alpha max plus beta min algorithm.
+
+```c
+double h = stdlib_base_fast_ampbm( -5.0, 12.0 );
+// returns ~13.5
+```
+
+</section>
+
+<!-- /.usage -->
+
+<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- C API usage examples. -->
+
+<section class="examples">
+
+### Examples
+
+```c
+#include "stdlib/math/base/special/fast/alpha_max_plus_beta_min.h"
+#include <stdio.h>
+
+int main( void ) {
+    const double x[] = { 3.0, 4.0, 5.0, 12.0 };
+
+    double y;
+    int i;
+    for ( i = 0; i < 4; i += 2 ) {
+        y = stdlib_base_fast_ampbm( x[ i ], x[ i + 1 ] );
+        printf( "ampbm(%lf, %lf) = %lf\n", x[ i ], x[ i + 1 ], y );
+    }
+}
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
 
 <!-- Section to include cited references. If references are included, add a horizontal rule *before* the section. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
@@ -247,8 +304,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-base-special-fast-alpha-max-plus-beta-min.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-base-special-fast-alpha-max-plus-beta-min
 
-[test-image]: https://github.com/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min/actions/workflows/test.yml/badge.svg?branch=v0.3.1
+[test-url]: https://github.com/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min/actions/workflows/test.yml?query=branch:v0.3.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-base-special-fast-alpha-max-plus-beta-min?branch=main
@@ -284,7 +341,7 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [alpha-max-plus-beta-min]: https://en.wikipedia.org/wiki/Alpha_max_plus_beta_min_algorithm
 
-[@stdlib/math/base/special/hypot]: https://github.com/stdlib-js/math-base-special-hypot/tree/umd
+[@stdlib/math/base/special/hypot]: https://github.com/stdlib-js/math-base-special-hypot
 
 <!-- <related-links> -->
 
